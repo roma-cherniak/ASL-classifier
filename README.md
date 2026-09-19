@@ -1,12 +1,22 @@
-MY Simple ASL project with OpenCV 
+A real-time American Sign Language (ASL) classifier built using **OpenCV** and a **custom deep learning architecture**. This project is trained to recognize and analyze 6 specific characters from the ASL alphabet directly from a webcam video feed.
 
+## Features
+* **Real-time Detection:** Uses OpenCV to capture frames, process hand regions, and run inference.
+* **Custom Architecture:** Powered by a unique, custom-designed neural network optimized for specific hand gestures.
+* **6-Class Recognition:** Specially trained to accurately distinguish between 6 selected ASL characters.
 
-Installation - pip install assignment_bp_roma_cherniak_2026
+##  Tech Stack
+* **Computer Vision:** OpenCV
+* **Deep Learning Framework:**  PyTorch 
+* **Language:** Python
+* **Libraries:** NumPy, Matplotlib
+  
 
 
 
 ## Quick Start
 
+**Installation** - pip install assignment_bp_roma_cherniak_2026
 ### Predict from image file
 ```python
 from asl_classifier import load_model, predict
